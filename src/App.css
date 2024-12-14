@@ -1,0 +1,18 @@
+body {
+  font-family: "Pokemon Solid", sans-serif;
+  background-color: #f7f7f7;
+}
+
+button {
+  background-color: #f08030;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e07020;
+}
