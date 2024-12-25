@@ -1,0 +1,161 @@
+body {
+  font-family: "Pokemon Solid", sans-serif;
+  background-color: #f7f7f7;
+}
+
+button {
+  background-color: #f08030;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e07020;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #00bfff; /* Highlight color on hover */
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    display: none; /* Hide links by default */
+  }
+
+  .navbar-links.active {
+    display: flex; /* Show links when active (e.g., for a burger menu) */
+  }
+}
+.about-page {
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.about-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00bfff;
+}
+
+.about-page p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.contact-page {
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.contact-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00bfff;
+}
+
+.contact-page p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #00bfff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #008cba;
+}
+
+/* styles/App.css */
+.app-container {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+.app-container h1 {
+  font-size: 2.5rem;
+  color: #00bfff;
+}
+
+.app-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
